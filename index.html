@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <header>
+      <img id="kodluyoruz-img" src="logo-1.png" alt="" />
+      <h1>Todo List</h1>
+      <form>
+        <input type="text" name="" id="text-field" onchange="saveText()" />
+        <input type="button" value="Add" id="add-button" onclick="addRow()" />
+      </form>
+    </header>
+
+    <main>
+      <div id="content"></div>
+    </main>
+
+    <footer>Copyright Faik Yesilyaprak</footer>
+  </body>
+  <script src="action.js"></script>
+</html>
